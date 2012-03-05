@@ -1,0 +1,103 @@
+name = OpenMFI
+description = OpenMFI Distribution
+
+version = 7.x-1.0-dev
+core = 7.x
+
+
+; Core
+
+dependencies[] = block
+dependencies[] = color
+dependencies[] = comment
+dependencies[] = contextual
+dependencies[] = dashboard
+dependencies[] = help
+dependencies[] = image
+dependencies[] = list
+dependencies[] = menu
+dependencies[] = number
+dependencies[] = options
+dependencies[] = path
+dependencies[] = taxonomy
+dependencies[] = syslog
+dependencies[] = search
+dependencies[] = shortcut
+dependencies[] = toolbar
+dependencies[] = overlay
+dependencies[] = field
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = rdf
+dependencies[] = statistics
+
+
+; Contrib
+
+dependencies[] = node_reference
+dependencies[] = user_reference
+dependencies[] = references_dialog
+dependencies[] = nodeblock
+dependencies[] = context
+dependencies[] = context_ui
+dependencies[] = ctools
+dependencies[] = views_content
+;;dependencies[] = panels
+dependencies[] = date
+dependencies[] = date_popup
+dependencies[] = diff
+dependencies[] = entity
+dependencies[] = features
+dependencies[] = follow
+dependencies[] = node_reference
+dependencies[] = nodequeue
+;;;dependencies[] = nodeblock
+dependencies[] = pathauto
+dependencies[] = strongarm
+dependencies[] = token
+dependencies[] = views
+dependencies[] = views_ui
+dependencies[] = securepages
+dependencies[] = entitycache
+dependencies[] = conditional_styles
+dependencies[] = field_group
+dependencies[] = comment_notify
+dependencies[] = boxes
+dependencies[] = context_field
+dependencies[] = entity_autocomplete
+dependencies[] = views_boxes
+dependencies[] = delta
+dependencies[] = delta_ui
+dependencies[] = unique_field
+dependencies[] = flag
+dependencies[] = rule
+
+
+
+
+
+; devel
+dependencies[] = module_filter
+dependencies[] = devel
+; Custom 
+
+;dependencies[] = context_no_title
+dependencies[] = context_breadcrumb_current_page
+dependencies[] = context_bool_field
+dependencies[] = defaultcontent
+dependencies[] = nodeconnect
+dependencies[] = apps
+
+;Features
+
+
+
+
+; Media Package
+
+
+
+files[] = openmfi.profile
+
+;stylesheets[all][] = css/menu.css
+;scripts[] = js/menu.js
